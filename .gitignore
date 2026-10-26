@@ -1,0 +1,96 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+jupyter_runtime/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDEs and Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# TensorFlow / Keras Model Artifacts
+# ==============================
+*.keras
+*.h5
+*.hdf5
+*.weights.h5
+saved_model/
+checkpoints/
+logs/
+tensorboard_logs/
+*.ckpt
+checkpoint
+
+# ==============================
+# Datasets and Large Files
+# ==============================
+data/*
+!data/.gitkeep
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.zip
+*.tar
+*.gz
+
+# ==============================
+# Generated Artifacts
+# ==============================
+artifacts/*
+!artifacts/.gitkeep
+*.tflite
+*.pb
+*.onnx
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+tmp/
+temp/
+.DS_Store
+Thumbs.db
